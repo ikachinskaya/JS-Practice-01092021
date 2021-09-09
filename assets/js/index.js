@@ -65,11 +65,7 @@ console.log("===================");
 
 /*2.3 Связать объекты между собой. т.е. прописать данные об факультете и кафедре для студента */
 
-student.university = {
-  name: "Zaporizhzhia National University",
-  faculty: "economy",
-  chair: "finance",
-};
+student.university = univercity;
 console.log(student);
 console.log("===================");
 //==========================================================================================================
